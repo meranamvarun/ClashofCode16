@@ -1,0 +1,98 @@
+Joker has trapped Batman in a  jail so that he can destroy gotham city but joker being joker do not not want to do it the easy way and wants to play with Batman's mind,he sets up a puzzle for Batman in the jail solving which Batman can get out and stop joker from destroying gotham city.
+
+Joker has set up the jail in such a way that neither Batman can hack nor brute force his way out of it ,his only way out is solving the puzzle.
+
+The jail has multiple sealed doors and Batman has to solve a version of the puzzle in each of the door to get out.
+
+Here is the puzzle.
+
+There is table in front of each door ,on the table is a stack of cubes that look like big  ice cubiod .The  cubes are of equal sizes but differ in weight and density .the stack is arranged in such a way that the lightest cube is on the top and the second lightest follow it and so on,this way the heaviest cube is at the bottom of the stack.The whole stack is placed a fluorescent sheet of paper exactly of the size of the cubes.
+
+There are two more such fluorescent sheets of exactly same size  ,Batman has to move all of the stack to the 3rd sheet.In any case if a heavier cube is on any cube lighter then the lighter cube gets destroyer.The chemical composition of the cubes is such that Batman cannot place it on any other place than the fluorescent sheets neither can he hold it in his hands ,if placed any where else they will get powdered.
+
+Joker has given one special glove to Batman only with which he can touch the cubes .
+
+
+And the most important thing ,Batman can only move one cube at a time.
+
+Keeping in mind all these constraints help Batman  transfer the stack from 1st sheet to the third ,you may or may not use the 2nd sheet.
+
+Upon transferring the stack to the third sheet the door will open on its own.
+
+
+
+
+
+
+
+
+
+
+
+___________________________________________________________________________
+Modified By Piyush Pandey 29th Aug, afternoon
+___________________________________________________________________________
+Joker has trapped Batman in a  jail so that he can destroy gotham city but Joker being Joker do not  want to do it the easy way and wants to play with Batman's mind,he sets up a puzzle for Batman in the jail solving which Batman can get out and stop joker from destroying gotham city.
+
+Joker has set up the jail in such a way that neither Batman can hack nor brute force his way out of it ,his only way out is solving the puzzle.
+
+The jail has multiple sealed doors, “M”, and Batman has to solve a version of the puzzle in each of the door to get out.
+
+Here is the puzzle.
+
+There is table in front of each door ,on the table is a stack of cubes that look like big  ice cubiod .The number of cubes may vary for each door , N.
+The  cubes are of equal sizes but differ in weight and density .Cubes are named for simplicity lexicographically A being lightest and Z being heaviest .The stack is arranged in such a way that the lightest cube is on the top and the second lightest follow it and so on,this way the heaviest cube is at the bottom of the stack. It means in each case A is at the top , B below A, C below B .. and so on.The whole stack is placed a fluorescent sheet of paper exactly of the size of the cubes.
+
+There are two more such fluorescent sheets of exactly same size  ,Batman has to move all of the stack to the 3rd sheet.In any case if a heavier cube is on any cube lighter then the lighter cube gets destroyer.The chemical composition of the cubes is such that Batman cannot place it on any other place than the fluorescent sheets neither can he hold it in his hands ,if placed any where else they will get powdered.
+
+Joker has given one special glove to Batman only with which he can touch the cubes .
+
+
+And the most important thing ,Batman can only move one cube at a time.
+
+Keeping in mind all these constraints help Batman transfer the stack from 1st sheet to the third ,you may or may not use the 2nd sheet.
+
+Upon transferring the stack to the third sheet the door will open on its own.
+To prevent cheating BATMAN is required to mention its move every time  and no of moves required clear this door . At last he needs to tell sum of all the steps required to open all the doors.
+______________________________________________________________________________
+INPUT->
+
+First Line : No of Doors -> M
+For Each M
+2nd Line : No of Cubes for Mi -> N
+______________________________________________________________________________
+OUTPUT  -> 
+______________________________________________________________________________
+Each Move in this format 
+Moving disk A from fp 1 to fp 3
+Moving disk B from fp 1 to fp 2
+   And so on
+And at last for each door 
+No of moves -> nm
+Total no of moves for opening all the doors .
+______________________________________________________________________________
+
+Example 
+______________________________________________________________________________
+Input 
+2
+3
+2
+
+______________________________________________________________________________
+Output 
+Moving cube A from fp 1 to fp 3
+Moving cube B from fp 1 to fp 2
+Moving cube A from fp 3 to fp 2
+Moving cube C from fp 1 to fp 3
+Moving cube A from fp 2 to fp 1
+Moving cube B from fp 2 to fp 3
+Moving cube A from fp 1 to fp 3
+7
+Moving cube A from fp 1 to fp  2
+Moving cube B from fp 1 to fp 3
+Moving cube A from fp 2 to fp 3
+3
+10
+______________________________________________________________________________
+
