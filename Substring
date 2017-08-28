@@ -1,0 +1,41 @@
+You are given a group of sentences. A sentence consists of many words . A word in turn may contain many substrings .A word may or maynot be a  meaningful English word.
+For e.g. lant3rn,lanturn , _ln_trn_ and lantern  are  words for us .
+We define our substring to be     
+    a) a part of the  word.
+    b)it must be preceded and succeeded by letters  or an underscore.
+For each sentence you need to find a specific substring "S" such that S occurs in between some word, not at the end or start.
+For e.g. In the word "WORD" ," OR " is a valid substring and " RD " and " WO " are not .
+Given N sentences ,and a substring S for each sentence ,we have to find no of valid occurrence of S as substring in the respective sentence.
+_______________________________________________________________________________________________
+INPUT
+5 (value of N)
+1st sentence
+1st substring
+2nd sentence
+2nd substring
+3rd sentence
+3rd substring
+4th sentence
+4th substring
+5th sentence
+5th substring
+_______________________________________________________________________________________________
+_______________________________________________________________________________________________
+OUTPUT
+2    //count of occurence of substring in the sentence
+3    //count of occurence of substring in the sentence
+1    //count of occurence of substring in the sentence     
+4    //count of occurence of substring in the sentence
+5    //count of occurence of substring in the sentence
+_______________________________________________________________________________________________
+Example
+_______________________________________________________________________________________________
+2                               #no of sentences
+His name _is_ is Nisam Hissar                  #1st sentence
+is                                       #required pattern
+I am a boy
+o
+_______________________________________________________________________________________________
+3
+1
+______________________________________________________
