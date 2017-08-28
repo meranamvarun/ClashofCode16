@@ -1,0 +1,26 @@
+Students of NIT-AP are very obedient . They come to class daily and sit according to seats pre assigned to them. Every Student Ax is pre assigned a seat Sx ,which is unique, for the entire class. There is no chance of alteration .Benches are arranged in classroom in (rows X column ) fashion.
+As we all know ,there is a shortage of benches in NIT-AP. So three students are requested to sit on one bench corresponding to their seat id Sx .
+But Seat ids are assigned with some logic. For every odd or even numbered rows , benches are arranged in ascending order from left to right. 
+On each Bench , on an odd numbered row ,seat ids are arranged in ascending order from left to right .
+But in case of even numbered rows On each Bench, seat ids are arranged in descending order from left to right .
+However in each case (whether odd or even ) benches are arranged in ascending order of their bench ids from left to right.
+
+
+
+
+Some of the students may be bright and absent on some days. For them the seat id Sx against their name remains vacant for the entire session.
+A pair (as showed in diagram above ) is said to be lucky if he has a immediate neighbor either on the left or right on the immediate neighbor bench. For e.g.
+S13 and S18 make 1 lucky pair (provided both are present )
+||y S6 and S7 make 1 lucky pair (provided both are present ) .
+Your task is to print
+1) the total no of lucky pairs 2) Class sitting pattern.
+______________________________________________________________________________
+Input
+n-> Total no of Sids against students;
+C-> columns, maximum columns of benches to be in each row;
+ab-> No of students who are absent;
+abs[ab]->an array having Sids of absent students.
+______________________________________________________________________________
+Output
+Task 1-> Seat Arrangement.
+Task 2-> No. of lucky pairs.
